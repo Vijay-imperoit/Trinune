@@ -433,8 +433,8 @@ const Header: React.FC<HeaderProps> = ({ isWhiteHeader = false }) => {
                     {/* {location.pathname !== "/budget-calculator" && ( */}
                     <li className="d-none d-lg-block custom-cursor">
                       <a
-                        href="/contact-us"
-                        className="btn text-white custom-cursor text-nowrap d-flex align-items-center justify-content-center fs-18 fw-600"
+                        href="#"
+                        className="btn no-hover text-white custom-cursor text-nowrap d-flex align-items-center justify-content-center fs-18 fw-600"
                         style={{
                           background: '#339ABC',
                           width: '146px',

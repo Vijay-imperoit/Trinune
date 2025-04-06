@@ -991,6 +991,10 @@
   color: #339abc !important;
 }
 
+.default-header .menu > ul > li > a.no-hover:hover {
+  color: #ffffff !important;
+}
+
 /* .default-header.if-navbar-white .menu > ul > li > a:hover {
   color: #ffff !important;
 } */
