@@ -1,0 +1,90 @@
+.hero-section-itcarlow .hero-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+  height: 100%;
+}
+
+.hero-section-itcarlow .hero-contain .hero-badge {
+  background: #141522;
+  border: 0.5px solid #47456b99;
+  padding: 0.5rem 1.125rem;
+}
+
+.hero-section-itcarlow .hero-contain .main-title {
+  font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section-itcarlow .hero-contain .sub-title {
+  font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+  font-weight: 400;
+}
+
+.section-itcarlow-hero {
+  background-color: var(--white);
+}
+.section-itcarlow-hero::before {
+  display: none;
+  animation: none;
+}
+.section-itcarlow-hero::after {
+  display: none;
+  animation: none;
+}
+.section-itcarlow-hero .hero-contain {
+  text-align: start;
+  color: var(--black);
+  align-items: start;
+}
+.section-itcarlow-hero .hero-contain .logo-img {
+  margin-bottom: clamp(3.125rem, 0.8338rem + 7.332vw, 5.375rem);
+}
+.section-itcarlow-hero .hero-contain .bottom-line::after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 200%;
+  left: -100%;
+  bottom: 0;
+  border-radius: 100px;
+  background: linear-gradient(0deg, #19509c, #19509c),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  z-index: -1;
+}
+.section-itcarlow-hero .hero-contain .main-text {
+  color: #003780;
+  font-size: clamp(1.75rem, 1.3045rem + 1.4257vw, 2.1875rem);
+  font-weight: 700;
+}
+.section-itcarlow-hero .img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+@media (min-width: 991px) {
+  .section-itcarlow-hero .img-box img {
+    width: 250px;
+    height: 480px;
+    z-index: 1;
+  }
+  .section-itcarlow-hero .img-box::after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: 0;
+    right: 0;
+    background-image: url(../../../assets/img/svg/itcarlow/itcarlow--hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    z-index: 0;
+  }
+}

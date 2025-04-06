@@ -1,0 +1,20 @@
+
+.blog-details-hero-section .card-body .text {
+    font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.blog-details-hero-section .card-body {
+    padding-inline: 0;
+}
+
+@media (min-width:991px) {
+    .blog-details-hero-section .border-lg-start {
+        border-left: 1px solid #6D6D6D4D;
+    }
+
+    .blog-details-hero-section .card-body {
+        padding-inline: 50px;
+    }
+}

@@ -1,0 +1,128 @@
+
+.section-get-in-touch-ios::after {
+  /* content: "";
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #EF936480;
+  filter: blur(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out;
+}
+
+.section-get-in-touch-ios::before {
+  /* content: "";
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #8B7BCF;
+  filter: blur(160px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out;
+}
+
+@keyframes footerafter {
+  0% {
+      top: 10%;
+      left: 10%;
+  }
+
+  25% {
+      top: 20%;
+      left: 25%;
+  }
+
+  50% {
+      top: 50%;
+      left: 70%;
+  }
+
+  75% {
+      top: 70%;
+      left: 15%;
+  }
+
+  100% {
+      top: 10%;
+      left: 0%;
+  }
+}
+
+@keyframes footerbefore {
+  0% {
+      top: 10%;
+      right: 10%;
+  }
+
+  25% {
+      top: 20%;
+      right: 25%;
+  }
+
+  50% {
+      top: 20%;
+      right: 50%;
+  }
+
+  75% {
+      top: 10%;
+      right: 25%;
+  }
+
+  100% {
+      top: 0%;
+      right: 0%;
+  }
+}
+.section-get-in-touch-ios {
+  position: relative;
+  background-image: url(../../../assets/img/svg/ios-app-dev/perspective-grid.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  color: var(--white);
+  overflow: hidden;
+  z-index: 0;
+}
+
+.section-get-in-touch-ios .title {
+  font-size: clamp(1.625rem, 1.3709rem + 0.813vw, 1.875rem);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-get-in-touch-ios .sub-title {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.section-get-in-touch-ios.green::before,
+.section-get-in-touch-ios.green::after{
+background-color: #1AADA3;
+filter: blur(100px);
+}

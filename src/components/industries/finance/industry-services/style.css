@@ -1,0 +1,40 @@
+.finance-services {
+  background-color: var(--black);
+  background-image: url(../../../../assets/img/other/shape/scroll-bg-left.png),
+    url(../../../../assets/img/other/shape/lasting-solutions-right-bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+}
+.development-services-finance {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.development-services-finance::-webkit-scrollbar {
+  display: none;
+}
+
+.development-services-finance .card {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border-top: 0.5px solid #ffffff4d;
+}
+
+.development-services-finance .card .card-body {
+  padding: 2.5rem 1.25rem !important;
+}
+
+.development-services-finance .card .card-body .title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  font-weight: bold;
+}
+
+.development-services-finance .card .card-body .para {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+  font-weight: normal;
+}
+.development-services-finance.no-scroll {
+  height: unset !important;
+  overflow-y: unset !important;
+}

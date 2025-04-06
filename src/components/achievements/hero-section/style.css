@@ -1,0 +1,118 @@
+.success-story-achievement .h2-title {
+  font-size: clamp(2.375rem, 2.2188rem + 0.5vw, 2.5rem);
+  font-weight: bold;
+  color: #222222;
+}
+
+.success-story-achievement .sab-text {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+  font-weight: normal;
+  color: #222222;
+}
+
+.success-story-achievement .custom-btn .btn-flush svg {
+  width: clamp(2.1875rem, -6.1184rem + 17.5439vw, 3.75rem);
+  height: clamp(2.1875rem, -6.1184rem + 17.5439vw, 3.75rem);
+}
+
+.divider:after {
+  content: '';
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: block;
+  margin-top: -5px;
+}
+
+.divider svg path {
+  fill: #fff !important;
+}
+
+.bg-light-purple {
+  background-color: #eeeeff;
+}
+
+.pettan-line {
+  background-image: url('../../../assets/img/other/shape/Perspective-Grid-achivement.svg');
+}
+
+@media (min-width: 992px) {
+  .pb-100px {
+    padding-bottom: 100px;
+  }
+
+  .army-certificate {
+    margin-top: -200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pettan-line.left:after {
+    content: '';
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 125px;
+    height: 130px;
+    background-image: url(../../../assets/img/other/shape/line-cure2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -10% 25%;
+    z-index: 1;
+  }
+
+  .pettan-line.right:after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 150px;
+    height: 232px;
+    background-image: url(../../../assets/img/other/shape/line-cure3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -10% 25%;
+    z-index: 1;
+  }
+
+  .cup-effect:after {
+    content: '';
+    position: absolute;
+    top: 209px;
+    left: 120px;
+    z-index: 2;
+    width: clamp(2.5rem, -10.4276rem + 26.3158vw, 4.375rem);
+    height: clamp(2.5rem, -10.4276rem + 26.3158vw, 4.375rem);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../../../assets/img/vector/award-3.svg);
+    animation: heart-beat 1.5s infinite;
+  }
+
+  .star-effect:after {
+    content: '';
+    position: absolute;
+    top: 260px;
+    right: 74px;
+    z-index: 2;
+    width: clamp(2.5rem, -10.4276rem + 26.3158vw, 4.375rem);
+    height: clamp(2.5rem, -10.4276rem + 26.3158vw, 4.375rem);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../../../assets/img/vector/stars-3.svg);
+    animation: heart-beat 1.5s infinite;
+  }
+}
+.framework-section {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.framework-section #custom-control .btn-flush svg {
+  color: var(--white);
+  width: 20px;
+  height: auto;
+}
+
+.framework-section #custom-control .btn-flush:disabled svg {
+  color: #ffffff40;
+}

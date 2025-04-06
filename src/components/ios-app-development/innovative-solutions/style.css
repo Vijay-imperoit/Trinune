@@ -1,0 +1,42 @@
+
+.lasting-solutions-ios2 {
+    background-color: var(--black);
+    background-image: url(../../../assets/img/svg/ios-app-dev/left-bg-1.svg),
+    url(../../../assets/img/svg/ios-app-dev/right-bg-1.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: 0 300px, 100% 0%;
+}
+
+.gradient-box-ios .card {
+    background: transparent;
+    border: 1px solid;
+    /* border-image-source: linear-gradient(300.63deg, rgba(71, 69, 107, 0.3) 11.58%, rgba(20, 19, 31, 0) 38.31%, #47456B 96.43%); */
+    border-image-slice: 1;
+    border-radius: 12px;
+    height: 218px;
+}
+
+.gradient-box-ios .card:hover {
+    background: linear-gradient(180deg, rgba(5, 5, 43, 0.2) 0%, rgba(67, 67, 199, 0.2) 100%);
+}
+
+.gradient-box-ios .card .title {
+    font-size: clamp(1.375rem, 1.0625rem + 1vw, 1.625rem);
+    font-weight: normal;
+}
+
+.gradient-box-ios .card:hover .pera {
+    font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
+    font-weight: 400;
+}
+
+.gradient-box-ios .card:hover .title,
+.gradient-box-ios .card .pera {
+    display: none;
+}
+
+.gradient-box-ios .card .title,
+.gradient-box-ios .card:hover .pera {
+    display: block;
+}

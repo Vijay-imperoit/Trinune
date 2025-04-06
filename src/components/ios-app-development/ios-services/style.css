@@ -1,0 +1,116 @@
+.hero-section2-ios {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    background-color: #000212;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    z-index: 0;
+  }
+   
+  .hero-section2-ios .hero-contain {
+    position: relative;
+    color: var(--white);
+    padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+    height: 100%;
+    z-index: 0;
+  }
+   
+  .hero-section2-ios .hero-contain::after {
+    content: '';
+    position: absolute;
+    top: 34px;
+    left: -76px;
+    width: 125px;
+    height: 130px;
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: -10% 25%;
+    z-index: -1;
+  }
+  .hero-section2-ios .hero-contain .main-title {
+    font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+   
+  .hero-section2-ios .hero-contain .sub-title {
+    font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+    font-weight: 400;
+  }
+
+  .frame-bg-ios {
+    position: relative;
+  }
+   
+  .frame-bg-ios::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -43%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/img/svg/ios-app-dev/frame-circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: heart-beat 3.4s infinite;
+    z-index: -1;
+}
+   
+  @media (min-width: 768px) {
+    .set-shape-ios {
+      position: relative;
+    }
+   
+    .set-shape-ios::after {
+      content: url(../../../assets/img/other/shape/text-shape.svg);
+      position: absolute;
+      top: -20%;
+      transform: translateX(-45%);
+    }
+   
+    .ios-app-store:after {
+      content: '';
+      position: absolute;
+      top: 100px;
+      left: 10px;
+      z-index: 2;
+      width: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      height: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url(../../../assets/img/svg//ios-app-dev/app-store.svg);
+      animation: heart-beat 3.4s infinite;
+    }
+   
+    .ios-name:after {
+      content: '';
+      position: absolute;
+      bottom: 100px;
+      left: 50px;
+      z-index: 2;
+      width: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      height: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url(../../../assets/img/svg/ios-app-dev/ios.svg);
+      animation: heart-beat 3.4s infinite;
+    }
+   
+    .ios-checkbox:after {
+      content: '';
+      position: absolute;
+      top: 160px;
+      right: 20px;
+      z-index: 2;
+      width: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      height: clamp(2.75rem, 2.4375rem + 1vw, 3rem);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url(../../../assets/img/svg/ios-app-dev/ios-style-checkbox.gif);
+    }
+  }

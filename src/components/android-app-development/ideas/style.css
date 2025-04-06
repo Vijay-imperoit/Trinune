@@ -1,0 +1,44 @@
+.app-development-section {
+  background-image: url(../../../assets/img/other/shape/cloud.svg);
+  background-size: 300px;
+  background-position: 100% 125%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .bugdroid-star:after {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: 86px;
+    height: 86px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/bugdroid-star.svg);
+  }
+
+  .bugdroid-star2:after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 49%;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/bugdroid-star2.svg);
+  }
+
+  .bugdroid-star3:after {
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: 16%;
+    width: 49px;
+    height: 49px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/bugdroid-star3.svg);
+  }
+}

@@ -1,0 +1,16 @@
+.flutter-box .card {
+    border: 0.5px solid #E3E8EF;
+    border-radius: .625rem;
+    margin-top: clamp(1.875rem, 1.0938rem + 2.5vw, 2.5rem);
+}
+
+.flutter-box .card .gray-box {
+    background: #F3F3F6;
+    border-radius: .625rem .625rem 0 0;
+}
+
+@media (min-width:992px) {
+    .flutter-box .card .gray-box {
+        border-radius: .625rem 0 0 .625rem;
+    }
+}

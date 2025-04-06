@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81.684" height="70" viewBox="0 0 81.684 70">
+    <g transform="translate(-3 -5.575)" data-name="Group 25793">
+        <path data-name="Path 23379" d="M65.717 34.267v7.042H46V23h8.45z" transform="translate(17.559 4.9)" style="fill:#84d2f6"/>
+        <path data-name="Path 23380" d="M84.276 33.675 73.009 22.408a1.455 1.455 0 0 0-1-.408H3v32.392a2.828 2.828 0 0 0 2.789 2.817h76.079a2.825 2.825 0 0 0 2.817-2.817V34.675a1.455 1.455 0 0 0-.408-1zm-2.408 6.633h-16.9V24.817h6.464l10.436 10.436z" transform="translate(0 4.492)" style="fill:#e53a35"/>
+        <path data-name="Path 23381" d="M72.434 33.675 61.167 22.408a1.455 1.455 0 0 0-1-.408H32v35.209h38.025a2.825 2.825 0 0 0 2.817-2.817V34.675a1.455 1.455 0 0 0-.408-1zm-2.408 6.633h-16.9V24.817h6.464l10.435 10.436z" transform="translate(11.842 4.492)" style="fill:#d32e2e"/>
+        <circle data-name="Ellipse 1047" cx="8.459" cy="8.459" r="8.459" transform="translate(14.631 53.233)" style="fill:#37474f"/>
+        <circle data-name="Ellipse 1048" cx="8.459" cy="8.459" r="8.459" transform="translate(56.926 53.233)" style="fill:#263238"/>
+        <path data-name="Path 23382" d="M56.517 13.817v33.8H3v-33.8A2.825 2.825 0 0 1 5.817 11H53.7a2.825 2.825 0 0 1 2.817 2.817z" style="fill:#fcb316"/>
+        <path data-name="Path 23383" d="M48.759 13.817v33.8H22V11h23.942a2.825 2.825 0 0 1 2.817 2.817z" transform="translate(7.759)" style="fill:#f9a01b"/>
+        <path data-name="Path 23384" d="M16 18h16.9v16.9H16z" transform="translate(5.309 2.858)" style="fill:#c69c6d"/>
+        <path data-name="Path 23385" d="M22 18h8.45v16.9H22z" transform="translate(7.759 2.858)" style="fill:#a67c52"/>
+        <path data-name="Path 23386" d="M20 18h5.633v8.45H20z" transform="translate(6.942 2.858)" style="fill:#cfd8dc"/>
+        <path data-name="Path 23387" d="M22 18h2.817v8.45H22z" transform="translate(7.759 2.858)" style="fill:#b0bec5"/>
+        <circle data-name="Ellipse 1049" cx="4.23" cy="4.23" r="4.23" transform="translate(18.861 57.462)" style="fill:#cfd8dc"/>
+        <circle data-name="Ellipse 1050" cx="4.23" cy="4.23" r="4.23" transform="translate(61.156 57.462)" style="fill:#b0bec5"/>
+    </g>
+</svg>

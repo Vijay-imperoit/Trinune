@@ -1,0 +1,43 @@
+.reviews-slider .slider-item .card {
+  box-shadow: 0px 3px 6px 0px #9898984d;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.875rem;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-slider .slider-item .card .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.reviews-slider .slider-item .card .start-group {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.reviews-slider .slider-item .card .review-text {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem) !important;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.0313rem solid #95959559;
+}
+
+.reviews-slider .slider-item .card .main-text {
+  font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.reviews-slider .slider-item .card .sub-text {
+  font-size: clamp(0.75rem, 0.6778rem + 0.3082vw, 0.875rem) !important;
+  font-weight: 400;
+  color: #3d3d3d;
+  margin-bottom: 0;
+}

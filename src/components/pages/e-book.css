@@ -1,0 +1,129 @@
+.ebook-banner {
+  position: fixed;
+  bottom: 20px;
+  left: -160px;
+  width: 150px;
+  height: 220px;
+  /* background: linear-gradient(360deg, #b060df 0%, #553a96 100%); */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: left 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.ebook-image img {
+  /* width: 80px;
+  height: 100px;
+  object-fit: contain; */
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.ebook-text p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ebook-banner.show {
+  left: 20px;
+  opacity: 1;
+}
+
+.ebook-banner.hide {
+  left: -160px;
+  opacity: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: -10px;
+  right: 4px;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 34px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 30px;
+  z-index: 3;
+}
+
+.close-button:hover {
+  color: #ff6f61;
+}
+
+.modal-overlay {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  overflow: auto;
+}
+
+/* Modal content */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  /* text-align: center; */
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Close button for modal */
+.close-modal-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-bottom: 30px;
+  z-index: 3;
+  padding-left: 30px;
+}
+
+/* Close button hover effect */
+.close-modal-button:hover {
+  color: #ff6f61;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+/* 
+.modal-div {
+  padding: 15px;
+} */
+
+.text-orange {
+  color: #ff6f61;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+ebook-form-input .form-control {
+  height: 40px !important;
+}

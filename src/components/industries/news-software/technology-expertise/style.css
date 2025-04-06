@@ -1,0 +1,16 @@
+.technology-expertise-box .card {
+  border: 0.5px solid #e3e8ef;
+  border-radius: 0.625rem;
+  margin-top: clamp(1.875rem, 1.0938rem + 2.5vw, 2.5rem);
+}
+
+.technology-expertise-box .card .gray-box {
+  background: #f3f3f6;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+@media (min-width: 992px) {
+  .technology-expertise-box .card .gray-box {
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+}

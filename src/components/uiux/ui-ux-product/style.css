@@ -1,0 +1,28 @@
+.lasting-solutions-uiux2 {
+  background-color: var(--black);
+  background-image: url(../../../assets/img/other/shape/scroll-bg-left.webp),
+  url(../../../assets/img/other/shape/lasting-solutions-right-bg.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+}
+
+.uiux-product .uiux-card .card .title-28 {
+    font-size: clamp(1.625rem, 1.4688rem + 0.5vw, 1.75rem);
+    font-weight: bold;
+}
+.uiux-card .card {
+  background: transparent;
+  border: 0.5px solid #47456B;
+  border-radius: 12px;
+  height: 321px;
+}
+
+.uiux-card .card:hover {
+  background: linear-gradient(180deg, rgba(5, 5, 43, 0.2) 0%, rgba(67, 67, 199, 0.2) 100%);
+}
+
+.uiux-card .title {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+  font-weight: 500;
+}

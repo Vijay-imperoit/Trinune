@@ -1,0 +1,25 @@
+.custom-gaming .industry-card {
+  border-radius: 0 !important;
+  border: none;
+  border-radius: 1rem !important;
+}
+
+.services.style2 .card {
+  border-radius: 0.75rem;
+  border: none;
+  min-height: 250px;
+}
+
+.services.style2 .card .card-body {
+  padding: 1.5rem;
+}
+
+.services.style2 .title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem) !important;
+  font-weight: 700;
+}
+
+.services.style2 .pera {
+  font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem) !important;
+  font-weight: 400;
+}

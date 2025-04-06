@@ -1,0 +1,220 @@
+.footer-section2 {
+  background-color: var(--black);
+  color: var(--white);
+  background-image: url('../../../assets/img/other/shape/Footer-arrow.svg');
+  background-size: 300px;
+  /* background-position: 60% 40%; */
+  background-position: 65% 38%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .footer-section2 {
+    background-image: none;
+  }
+}
+.footer-section2 .footer-box .img-item {
+  margin-bottom: 2.5rem;
+  /* margin-left: 50px; */
+}
+
+.footer-section2 .footer-box .main-text {
+  font-size: clamp(2rem, 1.3635rem + 2.0367vw, 2.625rem);
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+}
+
+.footer-section2 .footer-box .sub-text {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+  font-weight: 400;
+  color: #9f9fa0;
+}
+
+.footer-section {
+  position: relative;
+  background-color: var(--black);
+  overflow: hidden;
+  z-index: 0;
+}
+
+.footer-section::after,
+.section-get-in-touch::after {
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerafter 10s infinite alternate ease-in-out;
+}
+.footer-section::before,
+.section-get-in-touch::before {
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerbefore 10s infinite alternate ease-in-out;
+}
+
+@keyframes footerafter {
+ 0% {
+        top: 10%;
+        left: 10%;
+    }
+
+    25% {
+        top: 20%;
+        left: 25%;
+    }
+
+    50% {
+        top: 50%;
+        left: 70%;
+    }
+
+    75% {
+        top: 70%;
+        left: 15%;
+    }
+
+    100% {
+        top: 10%;
+        left: 0%;
+    }
+}
+
+@keyframes footerbefore {
+  0% {
+    top: 10%;
+    left: 0%;
+  }
+
+  25% {
+    top: -15%;
+    left: 25%;
+  }
+
+  50% {
+    top: 20%;
+    left: 50%;
+  }
+
+  75% {
+    top: 20%;
+    left: 60%;
+  }
+
+  100% {
+    top: 50%;
+    left: 80%;
+  }
+}
+
+.footer-section .list-group .list-group-item {
+  background-color: transparent;
+  padding: 0.5rem;
+  border: none;
+}
+
+.footer-section .list-group .list-group-item p {
+  font-size: clamp(1.25rem, 1.1227rem + 0.4073vw, 1.375rem);
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.footer-section .list-group .list-group-item a {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+  font-weight: 400;
+  color: #9f9fa0;
+}
+
+.footer-section .list-group .list-group-item a:hover {
+  color: var(--white);
+}
+
+.footer-section .dropdown-divider {
+  border-color: #242424;
+  margin: 2.5rem 0;
+}
+
+.footer-section .footer-bottom .copyright-text {
+  font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+  font-weight: 400;
+  color: #9f9fa0;
+  margin-bottom: 0;
+  /* cursor: pointer; */
+}
+.footer-section .footer-bottom .copyright-text:hover {
+  color: #fff;
+}
+
+.footer-section .footer-bottom .nav-links {
+  font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+  font-weight: 400;
+  color: #9f9fa0;
+  padding: 0 0.75rem;
+}
+
+.footer-section .footer-bottom .nav-links:hover {
+  color: var(--white);
+}
+
+.company-slider .slider-item .card-box {
+  text-align: center;
+  padding: 0.625rem;
+  transition: all 0.3s ease;
+}
+
+.company-slider .slider-item .card-box:not(:hover) {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.company-slider .slider-item .card-box img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1.125rem;
+}
+
+.company-slider .slider-item .card-box .main-text {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+  font-weight: 500;
+  color: var(--white);
+}
+
+.company-slider .slider-item .card-box .sub-text {
+  font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.social-link .social-box{
+  height: 40px;
+  width: 40px;
+  border: 1px solid #2B2B2B;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link .social-box:hover{
+  border: none;
+}
+.social-link .social-box.facebook:hover{
+  background: #316FF6;
+}
+.social-link .social-box.instagram:hover{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.social-link .social-box.linkedIn:hover{
+  background: #0A66C2;
+}
+.social-link .social-box.twitter:hover{
+  background: #14171A;
+}

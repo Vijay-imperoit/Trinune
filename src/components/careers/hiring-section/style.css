@@ -1,0 +1,78 @@
+
+.card.open-position-careers {
+    background-color: #eff6ff;
+    border-radius: 16px;
+    border: unset;
+}
+
+@media (min-width:768px) {
+    .card.open-position-careers .card-body {
+        padding: 3.5rem 4rem;
+    }
+}
+
+.card.position-card2-careers {
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 2.5rem;
+}
+
+.card.position-card2-careers:last-child {
+    margin-bottom: 0rem;
+}
+
+.card.position-card2-careers .card-body {
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.card.position-card2-careers .card-body .tech-img {
+    min-width: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    max-height: 56px;
+    padding: 4px;
+    border-radius: 6px;
+    border: 0.5px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.position-card2-careers .card-body .tech-img img {
+    width: 32px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.card.position-card2-careers .card-body .tech-name {
+    font-size: clamp(1.375rem, 1.2477rem + 0.4073vw, 1.5rem);
+    font-weight: 500;
+    margin-left: .9375rem;
+}
+
+.card.position-card2-careers .card-body .tech-des {
+    margin-top: .9375rem;
+}
+.text-edited {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.card.position-card2-careers .card-footer {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: unset;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.card.position-card2-careers .card-footer .experience {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

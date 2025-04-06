@@ -1,0 +1,25 @@
+.portfolio-style4 {
+  background-color: #fdf8f0;
+}
+.portfolio-card {
+  border-radius: 0.75rem;
+  padding: clamp(0.625rem, 0.2431rem + 1.222vw, 1rem);
+}
+.portfolio-card .info-card {
+  padding: clamp(0.9375rem, 0.301rem + 2.0367vw, 1.5625rem);
+}
+
+.portfolio-card .info-card .main-title {
+  font-size: clamp(1.875rem, 1.6406rem + 0.75vw, 2.0625rem);
+  font-weight: bold;
+}
+.portfolio-card .info-card .main-pera {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem) !important;
+  font-weight: normal;
+}
+.portfolio-style5 {
+  background-color: #f0fdf8;
+}
+.portfolio-lightbrown {
+  background-color: #f3efec;
+}

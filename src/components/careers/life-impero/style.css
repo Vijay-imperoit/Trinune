@@ -1,0 +1,62 @@
+
+.my-slider-careers,
+.my-slider-careers2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-slider-careers .card,
+.my-slider-careers2 .card {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.my-slider-careers .card .card-body,
+.my-slider-careers2 .card .card-body {
+    padding: 0;
+}
+
+.my-slider-careers .card img,
+.my-slider-careers2 .card img  {
+    width: 100%;
+    height: 100%;
+    border-radius: .75rem;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1.618 / 1;
+}
+.default-list-careers {
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+.default-list-careers li::marker {
+    content: url('../../../assets/img/svg/marker-circle.svg');
+}
+
+.default-list-careers .list-box {
+    padding-left: 1rem;
+}
+
+.default-list-careers .list-box .title {
+    font-size: clamp(1.375rem, 1.2188rem + 0.5vw, 1.5rem);
+}
+
+.default-list-careers .list-box .text {
+    font-size: clamp(1rem, 0.8438rem + 0.5vw, 1.125rem);
+}
+
+
+.imperian-speaks-box-careers2 {
+    position: relative;
+}
+
+.imperian-speaks-box-careers2 .play-btn {
+    position: absolute;
+    top: 90%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}

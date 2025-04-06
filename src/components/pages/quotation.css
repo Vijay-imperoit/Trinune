@@ -1,0 +1,74 @@
+.floating-btn {
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+    /* top: 150px; */
+    width: 100px; /* Equal width and height for a circle */
+    height: 100px;
+    /* background: linear-gradient(45deg, #1e90ff, #20b2aa); */
+    background: linear-gradient(90deg, #191a4e, #4e6fa9);
+    border: none;
+    border-radius: 50%;
+    padding: 55px 55px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    animation: floating 2s ease-in-out infinite;
+    z-index: 9999;
+  }
+  
+  .floating-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-btn .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    animation: bounce 0.5s infinite alternate;
+  }
+  
+  .floating-btn:active {
+    animation: ripple 0.5s ease;
+  }
+  
+  /* Floating button animation */
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Bounce effect for the icon */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Ripple effect when clicked */
+  @keyframes ripple {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  

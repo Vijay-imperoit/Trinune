@@ -1,0 +1,75 @@
+.hero-section2-react {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: #000212;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+
+@media (min-width:768px) {
+  .hero-section2-react .hero-contain-react {
+      position: relative;
+      color: var(--white);
+      padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+      height: 100%;
+      z-index: 0;
+  }
+
+  .hero-section2-react .hero-contain-react::after {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: -60px;
+      width: 125px;
+      height: 130px;
+      background-image: url(../../../assets/img/other/shape/gradient-curve-line.svg);
+      background-size: 125px;
+      background-repeat: no-repeat;
+      background-position: -10% 25%;
+      z-index: -1;
+  }
+}
+
+.hero-section2-react .hero-contain-react .main-title {
+  font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section2-react .hero-contain-react .sub-title {
+  font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+  font-weight: 400;
+}
+@media (min-width:992px) {
+  .right-side-img {
+      overflow: hidden;
+  }
+
+  .right-side-img img {
+      margin-right: -146px;
+  }
+
+}
+.hero-contain-react .main-title.black {
+  color: #222222;
+}
+
+.hero-contain-react .sub-title.black {
+  color: #222222;
+}
+@media (min-width: 768px) {
+  .set-shape-react {
+    position: relative;
+  }
+
+  .set-shape-react::after {
+    content: url(../../../assets/img/other/shape/text-shape.svg);
+    position: absolute;
+    top: -20%;
+    transform: translateX(-45%);
+  }
+}

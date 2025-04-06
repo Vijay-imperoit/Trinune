@@ -1,0 +1,44 @@
+.lasting-solutions-ios {
+  background-color: var(--black);
+  background-image: url(../../../assets/img/svg/ios-app-dev/left-bg-1.svg),
+    url(../../../assets/img/svg/ios-app-dev/right-bg-1.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+}
+.development-services-ios {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.development-services-ios::-webkit-scrollbar {
+  display: none;
+}
+
+.development-services-ios .card {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border-top: 0.5px solid #ffffff4d;
+}
+
+.development-services-ios .card .card-body {
+  padding: 2.5rem 1.25rem !important;
+}
+.title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  font-weight: bold;
+}
+.development-services-ios .card .card-body .title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  font-weight: bold;
+}
+
+.development-services-ios .card .card-body .para {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+  font-weight: normal;
+}
+
+.development-services-ios.no-scroll {
+  height: unset !important;
+  overflow-y: unset !important;
+}

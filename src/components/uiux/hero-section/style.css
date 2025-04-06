@@ -1,0 +1,115 @@
+.hero-section2-uiux {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: #000212;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+@media (min-width: 768px) {
+  .hero-section2-uiux .hero-contain-uiux {
+    position: relative;
+    color: var(--white);
+    padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .hero-section2-uiux .hero-contain-uiux::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -120px;
+    width: 125px;
+    height: 130px;
+    background-image: url(../../../assets/img/other/shape/gradient-curve-line.svg);
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: -10% 25%;
+    z-index: -1;
+  }
+}
+
+.hero-section2-uiux .hero-contain-uiux .main-title {
+  font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section2-uiux .hero-contain-uiux .sub-title {
+  font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+  font-weight: 400;
+}
+
+@media (min-width: 500px) {
+  .uiux-design-app {
+    position: relative;
+  }
+
+  .uiux-design-app .figma:after {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    width: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    height: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/uiux-services/figma.svg);
+    animation: heart-beat 3.4s infinite;
+  }
+
+  .uiux-design-app .adobe-ai:after {
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    left: 65px;
+    width: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    height: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/uiux-services/adobe-ai.svg);
+    animation: heart-beat 3.4s infinite;
+  }
+
+  .uiux-design-app .adobe-ps:after {
+    content: '';
+    position: absolute;
+    top: 140px;
+    right: 10px;
+    width: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    height: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/uiux-services/adobe-ps.svg);
+    animation: heart-beat 3.4s infinite;
+  }
+  .uiux-design-app .adobe-xd:after {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    width: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    height: clamp(3.125rem, 2.0313rem + 3.5vw, 4rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/svg/uiux-services/adobe-xd.svg);
+    animation: heart-beat 3.4s infinite;
+  }
+}
+
+@media (min-width: 768px) {
+  .set-shape-uiux {
+    position: relative;
+  }
+
+  .set-shape-uiux::after {
+    content: url(../../../assets/img/other/shape/text-shape.svg);
+    position: absolute;
+    top: -35%;
+    transform: translateX(-65%);
+  }
+}

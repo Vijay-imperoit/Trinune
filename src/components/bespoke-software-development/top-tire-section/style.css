@@ -1,0 +1,50 @@
+.Top-Tier-section {
+    background-color: var(--black);
+    color: var(--white);
+}
+.bespoke-slider .slider-item .card {
+    background: transparent;
+    border: 0.5px solid #47456B;
+    border-radius: 2.1875rem !important;
+}
+
+.bespoke-slider .slider-item .card:hover {
+    background: linear-gradient(180deg, rgba(5, 5, 43, 0.2) 0%, rgba(67, 67, 199, 0.2) 100%);
+
+}
+
+.bespoke-slider .slider-item .card .card-body {
+    padding: 1.5rem;
+}
+
+.if-black-bg .btn-flush svg {
+    color: var(--white);
+}
+
+.if-black-bg .btn-flush:disabled svg {
+    color: #FDFDFD66;
+}
+
+.bespoke-slider .slider-item .card {
+    min-height: 321px;
+}
+
+.bespoke-slider .slider-item .card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bespoke-slider .slider-item .card .card-body img {
+    margin-bottom: 10px;
+}
+
+.bespoke-slider .slider-item .card .card-body .title {
+    font-size: clamp(1.625rem, 1.4977rem + 0.4073vw, 1.75rem);
+    margin-block: auto 1.25rem;
+}
+
+.bespoke-slider .slider-item .card .card-body .sub-text {
+    font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem);
+    font-weight: 400;
+    margin-bottom: 0;
+}

@@ -1,0 +1,62 @@
+.lasting-solutions-react-native {
+  background-color: var(--black);
+  background-image: url(../../../assets/img/other/shape/scroll-bg-left.webp),
+    url(../../../assets/img/other/shape/lasting-solutions-right-bg.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+  position: relative;
+}
+
+/* .lasting-solutions-react-native::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ef936480;
+  filter: blur(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out;
+}
+
+.lasting-solutions-react-native::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #8b7bcf;
+  filter: blur(160px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out;
+} */
+
+.development-services-react-native .card {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border-top: 0.5px solid #ffffff4d;
+}
+
+.development-services-react-native .card .card-body {
+  padding: 2.5rem 1.25rem !important;
+}
+.title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  font-weight: bold;
+}
+.development-services-react-native .card .card-body .title {
+  font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  font-weight: bold;
+}
+
+.development-services-react-native .card .card-body .para {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+  font-weight: normal;
+}

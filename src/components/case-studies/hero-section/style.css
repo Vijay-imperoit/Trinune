@@ -1,0 +1,316 @@
+.hero-section-case-main {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: #000002;
+  /* background-image: url(../img/other/shape/perspective-grid.png); */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+
+.hero-section-case-main::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22%;
+  height: 22%;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #262a6d, #823c36d9);
+  overflow: hidden;
+  z-index: -1;
+  filter: blur(100px);
+  animation: afterMove 5s infinite alternate ease-in-out;
+}
+
+.hero-section-case-main::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 22%;
+  height: 22%;
+  border-radius: 50%;
+  filter: blur(100px);
+  background-color: #823c36ee;
+  z-index: -1;
+  animation: beforeMove 5s infinite alternate ease-in-out;
+}
+
+/* Keyframes for after pseudo-element */
+@keyframes afterMove {
+  0% {
+    right: 0%;
+    top: 10%;
+    background: linear-gradient(0deg, #262a6d, #823c36d9);
+    transform: scale(1);
+  }
+
+  25% {
+    right: 10%;
+    bottom: 25%;
+    background: linear-gradient(25deg, #262a6d, #823c36d9);
+    transform: scale(1.4);
+  }
+
+  50% {
+    right: 30%;
+    top: 50%;
+    transform: scale(1.7);
+    background: linear-gradient(50deg, #262a6d, #823c36d9);
+  }
+
+  75% {
+    right: 50%;
+    top: 25%;
+    background: linear-gradient(75deg, #262a6d, #823c36d9);
+
+    transform: scale(1.4);
+  }
+
+  100% {
+    right: 60%;
+    top: 10%;
+    background: linear-gradient(90deg, #262a6d, #823c36d9);
+    transform: scale(1.2);
+  }
+}
+
+/* Keyframes for before pseudo-element */
+@keyframes beforeMove {
+  0% {
+    left: 10%;
+    /* bottom: 80%; */
+    transform: scale(1);
+  }
+
+  25% {
+    left: 25%;
+    /* bottom: 80%; */
+    transform: scale(1.4);
+  }
+
+  50% {
+    left: 70%;
+    /* bottom: 50%; */
+    transform: scale(1.8);
+  }
+
+  75% {
+    left: 25%;
+    /* bottom: 70%; */
+    transform: scale(1.4);
+  }
+
+  100% {
+    left: 10%;
+    /* bottom: 80%; */
+    transform: scale(1.2);
+  }
+}
+
+.hero-section-case-main .hero-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+  height: 100%;
+}
+
+.hero-section-case-main .hero-contain .hero-badge {
+  background: #141522;
+  border: 0.5px solid #47456b99;
+  padding: 0.5rem 1.125rem;
+}
+
+.hero-section-case-main .hero-contain .main-title {
+  font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section-case-main .hero-contain .sub-title {
+  font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+  font-weight: 400;
+}
+
+.section-get-in-touch-case-studies::after {
+  /* content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ef936480;
+  filter: blur(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out;
+  opacity: 1;
+}
+
+.section-get-in-touch-case-studies::before {
+  /* content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #8b7bcf;
+  filter: blur(160px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out; */
+  content: '';
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out;
+}
+
+@keyframes footerafter {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+
+  25% {
+    top: 20%;
+    left: 25%;
+  }
+
+  50% {
+    top: 50%;
+    left: 70%;
+  }
+
+  75% {
+    top: 70%;
+    left: 15%;
+  }
+
+  100% {
+    top: 10%;
+    left: 0%;
+  }
+}
+
+@keyframes footerbefore {
+  0% {
+    top: 10%;
+    right: 10%;
+  }
+
+  25% {
+    top: 20%;
+    right: 25%;
+  }
+
+  50% {
+    top: 20%;
+    right: 50%;
+  }
+
+  75% {
+    top: 10%;
+    right: 25%;
+  }
+
+  100% {
+    top: 0%;
+    right: 0%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* case studies hero start */
+  .case-studies-hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .case-studies-hero:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: clamp(15.625rem, -33.3333rem + 97.9167vw, 27.375rem);
+    height: clamp(12.5rem, -14.3229rem + 53.6458vw, 18.9375rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/other/home/left-icons.svg);
+    animation: case-studies 9.4s forwards infinite;
+  }
+
+  .case-studies-hero:after {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -20px;
+    width: clamp(15.625rem, -33.3333rem + 97.9167vw, 27.375rem);
+    height: clamp(12.5rem, -14.3229rem + 53.6458vw, 18.9375rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../assets/img/other/home/right-icons.svg);
+    animation: case-studies1 9.4s forwards infinite;
+  }
+
+  @keyframes case-studies {
+    0% {
+      top: -90px;
+      left: -80px;
+    }
+
+    50% {
+      top: -50px;
+      left: -50px;
+    }
+
+    100% {
+      top: -90px;
+      left: -80px;
+    }
+  }
+
+  @keyframes case-studies1 {
+    0% {
+      top: -90px;
+      right: -80px;
+    }
+
+    50% {
+      top: -50px;
+      right: -50px;
+    }
+
+    100% {
+      top: -90px;
+      right: -80px;
+    }
+  }
+
+  /* case studies hero end */
+}

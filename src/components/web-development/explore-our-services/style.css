@@ -1,0 +1,81 @@
+.web-dev-service-section {
+    background-color: #000000;
+    border-radius: 24px;
+}
+
+.web-dev-service-section .scroll-section {
+    background: none;
+}
+
+.web-dev-service-section .title-2-web-dev {
+    position: sticky;
+    top: 0;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding-block: 30px;
+    margin-bottom: 70px;
+    z-index: 9;
+}
+
+.web-dev-service-section .card-body {
+    color: var(--white);
+}
+
+.web-dev-service-section .card-body .box-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 35px;
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+    font-weight: 400;
+    color: #222222;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.web-dev-service-section .img-box {
+    text-align: center;
+}
+
+.web-dev-service-section .img-box img {
+    border-radius: 1rem;
+}
+
+@media (min-width: 991px) {
+    .web-dev-service-section .scroll-item:nth-child(even) .img-box {
+        text-align: start;
+    }
+
+    .web-dev-service-section .scroll-item:nth-child(odd) .img-box {
+        text-align: right;
+    }
+}
+
+.web-dev-service-section .scroll-item {
+    margin-bottom: 70px;
+}.scroll-section {
+    background-color: var(--black);
+    background-image: url(../img/other/shape/scroll-bg-left.png), url(../img/other/shape/scroll-bg-right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: 0% 50%, 100% 0%;
+    background-attachment: fixed, fixed;
+}
+
+.scroll-section .scroll-item {
+    opacity: 0;
+    animation: scroll-reveal 3.5s linear forwards;
+    animation-timeline: view(y);
+    animation-range-start: cover 5.5vh;
+    animation-range-end: cover 100.5vh;
+    transition: opacity 0.2s ease-in-out;
+}
+
+@keyframes scroll-reveal {
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,156 @@
+.careers-hero-careers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../assets/img/other/shape/small-white-grid.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--white);
+  color: var(--black);
+  overflow: hidden;
+  min-height: 90vh;
+  padding-block: 80px 0;
+  z-index: 3;
+  position: relative;
+}
+
+.careers-hero-careers .hero-contain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 0;
+}
+
+.careers-hero-careers .icon-set {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+}
+
+.careers-hero-careers .icon-set.heart-icon {
+  width: 60px;
+  height: 60px;
+  left: 26%;
+  top: -5%;
+  animation: heart-beat 2s infinite;
+}
+
+.careers-hero-careers .icon-set.bag-icon {
+  width: 70px;
+  height: 70px;
+  top: -5%;
+  left: 70%;
+  animation: rotate 4.5s infinite;
+}
+
+.careers-hero-careers .icon-set.search-icon {
+  width: 108px;
+  height: 108px;
+  top: 75%;
+  left: 0%;
+  animation: up-down-animation 3.5s infinite;
+}
+
+.careers-hero-careers .icon-set.star-icon {
+  top: 75%;
+  left: 85%;
+  width: 60;
+  height: 58.14px;
+  animation: careers-beat 1.5s infinite;
+}
+
+@keyframes careers-beat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-80deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes up-down-animation {
+  0% {
+    transform: translateY(20px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+@keyframes heart-beat {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+.slider-startups .slider-item img {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.slider-shape {
+  position: relative;
+}
+
+.top-oval {
+  left: 50%;
+  transform: translate(-50%, -28%);
+  position: absolute;
+  width: 120%;
+  background-color: white;
+  height: 180px;
+  top: -50px;
+  z-index: 2;
+  clip-path: ellipse(50% 25% at 50% 50%);
+}
+
+.bottom-oval {
+  left: 50%;
+  transform: translate(-50%, -15%);
+  position: absolute;
+  width: 120%;
+  background-color: white;
+  height: 180px;
+  bottom: -50px;
+  z-index: 1;
+  clip-path: ellipse(50% 25% at 50% 50%);
+}

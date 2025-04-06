@@ -1,0 +1,140 @@
+.Top-Tier-section {
+  background-color: var(--black);
+  color: var(--white);
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.if-black-bg .btn-flush svg {
+  color: var(--white);
+}
+
+.if-black-bg .btn-flush:disabled svg {
+  color: #fdfdfd66;
+}
+
+.android-slider-section .android-slider .slider-item .card {
+  border-radius: 12px;
+  border: 2px solid #47456b;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 5, 43, 0.2) 0%,
+    rgba(67, 67, 199, 0.2) 100%
+  );
+  padding: 2px;
+  height: 144px;
+  /* width: 333px; */
+}
+
+.android-slider-section .android-slider .slider-item .card .card-body,
+.bespoke-slider-section .bespoke-slider .slider-item .card .card-body {
+  padding: 30px;
+}
+
+.android-slider-section .android-slider .slider-item .card-body .title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.Top-Tier-section::after {
+  /* content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ef936480;
+  filter: blur(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out;
+}
+
+.Top-Tier-section::before {
+  /* content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #8b7bcf;
+  filter: blur(160px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-image: url(../../../assets/img/other/shape/fotter-bg-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out;
+}
+
+@keyframes footerafter {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+
+  25% {
+    top: 20%;
+    left: 25%;
+  }
+
+  50% {
+    top: 50%;
+    left: 70%;
+  }
+
+  75% {
+    top: 70%;
+    left: 15%;
+  }
+
+  100% {
+    top: 10%;
+    left: 0%;
+  }
+}
+
+@keyframes footerbefore {
+  0% {
+    top: 10%;
+    right: 10%;
+  }
+
+  25% {
+    top: 20%;
+    right: 25%;
+  }
+
+  50% {
+    top: 20%;
+    right: 50%;
+  }
+
+  75% {
+    top: 10%;
+    right: 25%;
+  }
+
+  100% {
+    top: 0%;
+    right: 0%;
+  }
+}

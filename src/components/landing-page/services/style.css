@@ -1,0 +1,123 @@
+.our-services-section {
+  position: relative;
+  background-color: var(--black);
+  overflow: hidden;
+}
+.our-services-section::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  filter: blur(80px);
+  background-color: #8b7bcf;
+  overflow: hidden;
+  z-index: -1;
+  animation: ourafrer 10s infinite alternate ease;
+}
+.our-services-section::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  filter: blur(50px);
+  background-color: #ef936480;
+  overflow: hidden;
+  z-index: -1;
+  animation: ourabefore 7s infinite alternate ease-in;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title-box {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title-box {
+    margin-bottom: 1.875rem;
+  }
+}
+
+.process-scroll,
+.our-work {
+  height: 334px;
+  overflow-y: auto;
+}
+.process-scroll::-webkit-scrollbar,
+.our-work::-webkit-scrollbar {
+  display: none;
+}
+
+.our-work-box {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  overflow: hidden;
+  border-bottom: 1px solid #242424;
+  transition: all 0.4s ease;
+}
+
+.our-work-box:last-child {
+  border: none !important;
+}
+
+.our-work-box .number-text {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem) !important;
+  font-weight: 500;
+  color: #929292;
+  margin-bottom: 0;
+}
+
+.our-work-box .title {
+  font-size: clamp(1.5rem, 1.2454rem + 0.8147vw, 1.75rem);
+  font-weight: 500;
+  color: #929292;
+}
+
+.our-work-box .our-footer {
+  height: 1px;
+  opacity: 0.6;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.our-work-box .img-box img {
+  width: 100px;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+}
+
+.our-work-box .our-footer .text {
+  font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+  font-weight: 400;
+  color: #929292;
+}
+
+.our-work-box:hover {
+  height: 180px;
+  overflow: visible;
+  transition: all 0.5s ease;
+}
+
+.our-work-box:hover .title {
+  color: var(--white);
+}
+
+.our-work-box:hover .img-box img {
+  width: 200px;
+  transform: rotate(-5deg) scale(1.1) translate(-20px, -10px);
+  transition: all 1s ease;
+}
+
+.our-work-box:hover .our-footer {
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}

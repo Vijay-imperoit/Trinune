@@ -1,0 +1,30 @@
+.hero-section2-arvr {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: #000212;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+
+.hero-img-arvr .title {
+  font-size: clamp(3.125rem, 2.3438rem + 2.5vw, 3.75rem) !important;
+  letter-spacing: 0.04em;
+}
+
+.hero-img-arvr .para {
+  font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem) !important;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+
+}
+
+.hero-img-arvr {
+  background-image: url(../../../assets/img/other/home/ArvrHero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

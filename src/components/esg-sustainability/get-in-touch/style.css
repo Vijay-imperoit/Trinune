@@ -1,0 +1,66 @@
+/* .section-get-in-touch::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #ef936480;
+  filter: blur(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerafter 7s infinite alternate ease-in-out;
+}
+
+.section-get-in-touch::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: #8b7bcf;
+  filter: blur(160px);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  animation: footerbefore 7s infinite alternate ease-in-out;
+} */
+
+.section-get-in-touch {
+  position: relative;
+  background-image: url(../img/other/shape/perspective-grid.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  color: var(--white);
+  overflow: hidden;
+  z-index: 0;
+}
+
+.section-get-in-touch .title {
+  font-size: clamp(1.625rem, 1.3709rem + 0.813vw, 1.875rem);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-get-in-touch .sub-title {
+  font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.section-get-in-touch.green::before,
+.section-get-in-touch.green::after {
+  /* background-color: #1aada3; */
+  content: '';
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  background-image: url(../../../assets/img/svg/vector-green-1.svg);
+}

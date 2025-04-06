@@ -1,0 +1,80 @@
+.lasting-solutions-startups {
+  background-color: var(--black);
+  background-image: url(../../../assets/img/other/shape/scroll-bg-left.png),
+    url(../../../assets/img/other/shape/lasting-solutions-right-bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+}
+/* .services.style1 .card {
+  border-radius: 1.5rem;
+  background: transparent;
+  color: #fff;
+  border: 0.5px solid #47456b;
+} */
+ 
+.services.style1 .card {
+  position: relative;
+  border-radius: 1.5rem;
+  background: transparent;
+  color: #fff;
+  /* border: 2px solid #47456b; */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  z-index: 0;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+ 
+.services.style1 .card::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+  transparent,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.3),
+  rgba(255, 255, 255, 0.5),
+  transparent 30%
+);
+  border-radius: 1.6rem;
+  animation: rotate 6s linear infinite;
+}
+ 
+.services.style1 .card::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 3px;
+  top: 3px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  background: var(--black);
+  border-radius: 1.4rem;
+}
+ 
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+ 
+ 
+.services.style1 .card .card-body {
+  padding: 1.25rem 2.5rem;
+}
+ 
+.services.style1 .title {
+  font-size: clamp(1.625rem, 1.1563rem + 1.5vw, 2rem) !important;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+ 
+.lasting-solutions-startups .space-para{
+line-height: 26.04px;
+letter-spacing: 0.04em;
+text-align: end;
+}

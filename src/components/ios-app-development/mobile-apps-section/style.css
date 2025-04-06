@@ -1,0 +1,90 @@
+
+.ios-innovation-sec {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width:992px) {
+    .img-animate {
+        display: block;
+    }
+
+    .img-animate::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .ios-img::after {
+        background-image: url(../../../assets/img/svg/ios-app-dev/ios.svg);
+        width: 140px;
+        height: 120px;
+        top: 10%;
+        left: 0;
+        animation: move-left-position 3.5s infinite alternate;
+    }
+
+    .development-img::after {
+        background-image: url(../../../assets/img/svg/ios-app-dev/Development.svg);
+        background-size: 500px;
+        width: 584px;
+        height: 130px;
+        top: 20%;
+        right: 0;
+        animation: move-right-position 3.5s infinite alternate;
+
+    }
+
+    .application-img::after {
+        background-image: url(../../../assets/img/svg/ios-app-dev/Application.svg);
+        background-size: 480px;
+        width: 584px;
+        height: 130px;
+        bottom: 5%;
+        right: 0%;
+        animation: move-right-position 3.5s infinite alternate;
+    }
+
+    .app-store::after {
+        background-image: url(../../../assets/img/svg/ios-app-dev/app-store-2.svg);
+        background-size: contain;
+        left: 17%;
+        top: 60%;
+        width: 70px;
+        height: 70px;
+        animation: heart-beat 1.5s infinite;
+    }
+
+    .apple-icon::after {
+        background-image: url(../../../assets/img/svg/ios-app-dev/apple.svg);
+        background-size: contain;
+        top: 45%;
+        right: 7%;
+        width: 130px;
+        height: 130px;
+        animation: heart-beat 1.5s infinite;
+    }
+
+    @keyframes move-right-position {
+        from {
+            right: 0%;
+        }
+
+        to {
+            right: -10%;
+        }
+    }
+
+    @keyframes move-left-position {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 5%;
+        }
+    }
+}

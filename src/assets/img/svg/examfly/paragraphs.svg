@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+    <defs>
+        <clipPath id="tcfz4vul0a">
+            <path data-name="Rectangle 6825" transform="translate(-.45 -.45)" style="fill:#fff" d="M0 0h68v68H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 26353" transform="translate(-666 -4323)">
+        <circle data-name="Ellipse 1083" cx="70" cy="70" r="70" transform="translate(666 4323)" style="fill:#f4f4f4;opacity:.5"/>
+        <g transform="translate(702.449 4359.45)" style="clip-path:url(#tcfz4vul0a)">
+            <path data-name="Path 23951" d="M41.376 40.951V49.3h-30.7v-8.349h10.367V15.9h-9.46V7.546h20.732v33.4z" transform="translate(7.233 5.112)" style="fill:#d56eca"/>
+            <path data-name="Path 23952" d="M24.221 37.96H0v3.83h24.221zM0 67.1h67.1v-3.83H0zm13.92-16.489H0v3.83h13.92zM0 0v3.83h67.1V0zm14.827 12.651H0v3.83h14.827zM24.221 25.3H0v3.83h24.221zm19.317 3.83H67.1V25.3H43.538zm0-12.651H67.1v-3.83H43.538zm9.06 37.96h14.509v-3.83H52.6zm-9.06-12.649H67.1v-3.83H43.538z" style="fill:#0a2645"/>
+        </g>
+    </g>
+</svg>

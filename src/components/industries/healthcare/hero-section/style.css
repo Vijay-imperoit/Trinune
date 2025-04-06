@@ -1,0 +1,56 @@
+.hero-section2-hc {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: #000212;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 0;
+}
+
+.hero-section2-hc .hero-contain {
+  position: relative;
+  color: var(--white);
+  padding: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem) 0;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-section2-hc .hero-contain::after {
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: -76px;
+  width: 125px;
+  height: 130px;
+  background-image: url(../img/other/shape/line-cure.png);
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: -10% 25%;
+  z-index: -1;
+}
+
+.hero-section2-hc .hero-contain .main-title {
+  font-size: clamp(1.875rem, 0.6021rem + 4.0733vw, 3.125rem) !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section2-hc .hero-contain .sub-title {
+  font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+  font-weight: 400;
+}
+
+.hero-img-hc {
+  background-image: url(../../../../assets/img/other/home/hc-hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-img-hc .title {
+  font-size: clamp(3.125rem, 2.3438rem + 2.5vw, 3.75rem) !important;
+  font-weight: bold;
+}

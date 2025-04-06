@@ -1,0 +1,25 @@
+.mastery-card-web {
+    border: 0.5px solid #2222224D;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 12px;
+}
+
+.mastery-card-web .box-icon {
+    min-width: 52px;
+    min-height: 52px;
+    display: grid;
+    place-items: center;
+    background-color: #F3F3F6;
+    border-radius: 8px;
+}
+
+.mastery-card-web .card-text {
+    font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 0;
+}

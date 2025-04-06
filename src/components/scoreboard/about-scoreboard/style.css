@@ -1,0 +1,232 @@
+.about-scoreboard {
+  padding-bottom: clamp(6.25rem, -3.2968rem + 30.5499vw, 15.625rem) !important;
+}
+
+.scoreboard-primary-color {
+  color: #396db5;
+}
+.scoreboard-primary-bg {
+  background-color: #396db5;
+}
+.scoreboard-primary-bg-light {
+  background-color: #d4e6f7;
+  border-color: #d4e6f7;
+}
+
+.set-involvement-img {
+  margin-top: clamp(-16.875rem, -1.7375rem + -24.4399vw, -9.375rem);
+}
+
+.min-h-238px {
+  min-height: 238px;
+}
+.border-light-gray {
+  border-color: #95959559;
+}
+
+.testimonial-scoreboard-card {
+  position: relative;
+  background-color: #2864b8;
+  padding: clamp(0.9375rem, -0.0172rem + 3.055vw, 1.875rem);
+  border-radius: 12px;
+}
+.testimonial-scoreboard-card::after {
+  content: "";
+  position: absolute;
+  width: 2.625rem;
+  height: 2.25rem;
+  top: 0.9375rem;
+  left: 1.25rem;
+  background-image: url(../../../assets/img/other/case-study-details/scoreboard/quotation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.625rem;
+}
+
+.scoreboard-user-slider .slider-item .card {
+  padding: 1.375rem clamp(0.9375rem, -0.0172rem + 3.055vw, 1.875rem);
+  box-shadow: 0px 3px 6px 0px #9898984d;
+  margin: 10px 0;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.portfolio-style1 .grid-utrade-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: clamp(0.3125rem, -0.2603rem + 1.833vw, 0.875rem);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "div1 div3"
+    "div2 div3"
+    "div4 div4";
+}
+
+.portfolio-style1 .grid-utrade-view .div1 {
+  grid-area: div1;
+}
+
+.portfolio-style1 .grid-utrade-view .div2 {
+  grid-area: div2;
+}
+
+.portfolio-style1 .grid-utrade-view .div3 {
+  grid-area: div3;
+}
+
+.portfolio-style1 .grid-utrade-view .div4 {
+  grid-area: div4;
+}
+
+.portfolio-style1 .grid-utrade-view .div1,
+.portfolio-style1 .grid-utrade-view .div2,
+.portfolio-style1 .grid-utrade-view .div3,
+.portfolio-style1 .grid-utrade-view .div4 {
+  background-color: #1b74e4;
+}
+
+.portfolio-style1 .grid-utrade-view .div2 img {
+  width: clamp(6.25rem, -8.3885rem + 46.8432vw, 20.625rem);
+}
+
+.portfolio-style1 .grid-utrade-view .div3 img {
+  width: clamp(3.75rem, -3.5692rem + 23.4216vw, 9.9375rem);
+}
+
+.portfolio-style1 {
+  background-color: #eff6ff;
+}
+
+.portfolio-card {
+  /* border-radius: .75rem; */
+  padding: clamp(0.625rem, 0.2431rem + 1.222vw, 1rem);
+}
+
+.portfolio-card .info-card {
+  padding: clamp(0.9375rem, 0.301rem + 2.0367vw, 1.5625rem);
+}
+
+.portfolio-card .info-card .logo-img {
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-card .info-card .main-text {
+  font-size: clamp(1.375rem, 1.2477rem + 0.4073vw, 1.5rem) !important;
+  font-weight: 700;
+  margin-bottom: clamp(1.875rem, -0.6708rem + 8.1466vw, 4.375rem);
+}
+
+@media (min-width: 768px) {
+  .portfolio-card .info-card .main-text {
+    width: min(100% - 0px, 75%);
+  }
+}
+
+.portfolio-card .div1,
+.portfolio-card .div2,
+.portfolio-card .div3,
+.portfolio-card .div4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 80px;
+  border-radius: 0.75rem;
+  padding: clamp(0.625rem, -0.3297rem + 3.055vw, 1.5625rem)
+    clamp(0.625rem, -0.6479rem + 4.0733vw, 1.875rem);
+  background-color: #1b74e4;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.portfolio-card .div1 p,
+.portfolio-card .div2 p,
+.portfolio-card .div3 p,
+.portfolio-card .div4 p {
+  font-size: clamp(0.75rem, 0.3681rem + 1.222vw, 1.125rem);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.9px) and (min-width: 768px) {
+  .scoreboard-view .card-item:nth-child(3) {
+    border-right: 1px solid #4a4a4a1a;
+    border-bottom: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(4) {
+    border-bottom: 1px solid #4a4a4a1a;
+  }
+}
+@media (min-width: 768px) {
+  .scoreboard-view .card-item:nth-child(1) {
+    border-right: 1px solid #4a4a4a1a;
+    border-bottom: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(2) {
+    border-bottom: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(3) {
+    border-bottom: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(5) {
+    border-right: 1px solid #4a4a4a1a;
+  }
+}
+@media (min-width: 991px) {
+  .scoreboard-view .card-item:nth-child(2) {
+    border-right: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(4) {
+    border-right: 1px solid #4a4a4a1a;
+  }
+  .scoreboard-view .card-item:nth-child(4) {
+    border-right: 1px solid #4a4a4a1a;
+  }
+}
+
+.portfolio-style2 .grid-druidlearning-view .div1,
+.portfolio-style2 .grid-druidlearning-view .div2,
+.portfolio-style2 .grid-druidlearning-view .div3,
+.portfolio-style2 .grid-druidlearning-view .div4 {
+  background-color: #5d6eba;
+}
+
+.portfolio-style2 {
+  background-color: #e8f7f6;
+}
+
+.portfolio-style2 .grid-keepappy-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(3, auto);
+  grid-gap: clamp(0.3125rem, -0.2603rem + 1.833vw, 0.875rem);
+  grid-template-areas:
+    "div1 div3"
+    "div1 div4"
+    "div2 div4";
+}
+
+.portfolio-style2 .grid-keepappy-view .div1 {
+  grid-area: div1;
+}
+
+.portfolio-style2 .grid-keepappy-view .div2 {
+  grid-area: div2;
+}
+
+.portfolio-style2 .grid-keepappy-view .div3 {
+  grid-area: div3;
+}
+
+.portfolio-style2 .grid-keepappy-view .div4 {
+  grid-area: div4;
+}
+
+.portfolio-style2 .grid-keepappy-view .div1 img {
+  width: clamp(4.25rem, -1.3875rem + 24.4399vw, 13.75rem);
+}
+
+.portfolio-style2 .grid-keepappy-view .div4 img {
+  width: clamp(4rem, -2.0468rem + 30.5499vw, 16.875rem);
+}

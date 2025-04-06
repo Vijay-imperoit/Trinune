@@ -1,0 +1,55 @@
+.our-vision-section-about {
+  color: var(--white);
+  background-color: var(--black);
+  background-image: url(../../../assets/img/svg/ios-app-dev/left-bg-1.svg),
+    url(../../../assets/img/svg/ios-app-dev/right-bg-1.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: 0 150px, 100% 0%;
+}
+
+@media (min-width: 991px) {
+  .our-vision-section-about {
+    padding-bottom: 220px;
+  }
+
+  .our-story-section-about .big-img-box {
+    margin-top: -270px;
+  }
+  .vertical-line {
+    border-right: 1.5px solid #fdfdfd4d;
+  }
+}
+
+.our-vision-section-about .title-box .main-text {
+  font-size: clamp(2rem, 1.4908rem + 1.6293vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.our-story-section-about .big-img-box {
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.our-story-section-about .big-img-box .main-img {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  transition: all 0.4s ease;
+  object-fit: cover;
+  object-position: center;
+}
+
+.our-story-section-about .big-img-box .main-img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s ease;
+}
+
+.our-story-section-about .line {
+  width: min(100%, 240px);
+  height: 1px;
+  background-color: #2222224d;
+  margin-bottom: 14px;
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <g data-name="Group 26478">
+        <path data-name="Rectangle 6838" style="fill:none" d="M0 0h70v70H0z"/>
+        <g data-name="Group 26495">
+            <path data-name="Path 24136" d="M139.934 232.257h-39.752a1.1 1.1 0 0 0-1.1 1.1v7.9c0 6.713 9.216 11.972 20.98 11.972s20.98-5.259 20.98-11.972v-7.9a1.1 1.1 0 0 0-1.108-1.1z" transform="translate(-84.714 -199.855)" style="fill:#5d647f"/>
+        </g>
+        <g data-name="Group 26496">
+            <path data-name="Path 24137" d="M120.093 232.257h-19.91a1.1 1.1 0 0 0-1.1 1.1v7.9c0 6.713 9.216 11.972 20.98 11.972h.035z" transform="translate(-84.714 -199.855)" style="fill:#5c546a"/>
+        </g>
+        <g data-name="Group 26497">
+            <path data-name="Path 24138" d="M66.636 66.736 38.566 54.7a9.976 9.976 0 0 0-7.824 0L2.678 66.735a4.416 4.416 0 0 0 0 8.118l28.068 12.031a9.98 9.98 0 0 0 7.824 0l28.064-12.03a4.416 4.416 0 0 0 0-8.118z" transform="translate(.688 -46.122)" style="fill:#527992"/>
+        </g>
+        <g data-name="Group 26499">
+            <g data-name="Group 26498">
+                <path data-name="Path 24139" d="M44.182 194.946a1.1 1.1 0 0 1-1.1-1.1V177.1a2.2 2.2 0 0 1 1.831-2.176l22.273-3.874a1.1 1.1 0 1 1 .377 2.176L45.286 177.1v16.738a1.1 1.1 0 0 1-1.104 1.108z" transform="translate(-36.444 -147.085)" style="fill:#5c546a"/>
+            </g>
+        </g>
+        <g data-name="Group 26500" transform="translate(5.53 45.653)">
+            <circle data-name="Ellipse 1089" cx="2.208" cy="2.208" r="2.208" style="fill:#ff9600"/>
+        </g>
+        <g data-name="Group 26501">
+            <path data-name="Path 24140" d="M219.078 168.257v2.208c0 1.22 1.978 2.208 4.417 2.208s4.417-.989 4.417-2.208v-2.208z" transform="translate(-188.151 -144.689)" style="fill:#ff9600"/>
+        </g>
+        <g data-name="Group 26502" transform="translate(30.927 21.36)">
+            <ellipse data-name="Ellipse 1090" cx="4.417" cy="2.208" rx="4.417" ry="2.208" style="fill:#ffd200"/>
+        </g>
+        <g data-name="Group 26503">
+            <path data-name="Path 24141" d="m29.647 362.455-.795 8.743a1.1 1.1 0 0 0 1.1 1.2h4.207a1.1 1.1 0 0 0 1.1-1.2l-.795-8.743a2.418 2.418 0 0 0-2.408-2.2 2.418 2.418 0 0 0-2.409 2.2z" transform="translate(-24.177 -310.187)" style="fill:#ffd200"/>
+        </g>
+    </g>
+</svg>

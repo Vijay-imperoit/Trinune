@@ -1,0 +1,188 @@
+
+
+.careers-box-career-details {
+    background-color: #F5F7FF;
+    border: 1px solid #E8E8E8;
+    border-radius: .75rem;
+}
+
+@media (min-width:768px) {
+    .careers-box-career-details .card-body {
+        padding: 1.5rem;
+    }
+
+}
+
+.careers-box-career-details .card-body .title {
+    font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem) !important;
+    font-weight: 700;
+    margin-bottom: .625rem;
+}
+
+.careers-box-career-details .card-body .sub-text {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem) !important;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.left-box-career-details {
+    padding: 16px clamp(0.525rem, -0.266rem + 2.8513vw, 1.5rem);
+}
+
+.left-box-career-details .careers-head {
+    margin-bottom: 50px;
+}
+
+.left-box-career-details .careers-head .main-title {
+    font-size: clamp(1.375rem, 1.2477rem + 0.4073vw, 1.5rem);
+    font-weight: 700;
+    border-bottom: 0.5px solid #22222233;
+    padding-bottom: .75rem;
+    margin-bottom: 1rem;
+}
+
+.left-box-career-details .careers-head .sub-title {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem) !important;
+    font-weight: 400;
+    color: #222222B2;
+}
+
+.left-box-career-details .careers-details {
+    margin-bottom: 3.125rem;
+}
+
+.left-box-career-details .careers-details .main-title {
+    font-size: clamp(1.375rem, 1.2477rem + 0.4073vw, 1.5rem);
+    font-weight: 700;
+    border-bottom: 0.5px solid #22222233;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.left-box-career-details .careers-details .list-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.left-box-career-details .careers-details .list-item .text {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem) !important;
+    font-weight: 400;
+    color: #222222B2;
+    margin-bottom: 0;
+}
+
+.box-career-details-right {
+    padding: 16px clamp(0.525rem, -0.266rem + 2.8513vw, 1.5rem);
+}
+
+.box-career-details-right .title {
+    font-size: clamp(1.375rem, 1.2477rem + 0.4073vw, 1.5rem) !important;
+    font-weight: 700;
+    margin-bottom: 1.625rem;
+}
+
+.box-career-details-right .progress-bar-box {
+    background-color: #F5F7FF;
+    border-radius: .75rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-career-details-right .progress-bar-box .text {
+    font-size: clamp(0.875rem, 0.8028rem + 0.3082vw, 1rem) !important;
+    font-weight: 500;
+    margin-bottom: .3125rem;
+}
+
+.box-career-details-right .progress-bar-box .disabled-text {
+    color: #22222280;
+}
+
+.box-career-details-right .progress-bar-box .progress {
+    height: 8px;
+    border-radius: 0;
+    background-color: #D6DDEB;
+}
+
+.box-career-details-right .progress-bar-box .progress .progress-bar {
+    background-color: #56CDAD;
+}
+
+.box-career-details-right .info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-career-details-right .info-box .info-text {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+    font-weight: 500;
+    color: #22222280;
+}
+
+.box-career-details-right .info-box .info-date {
+    font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
+    font-weight: 700;
+    color: #222222;
+}
+
+.box-career-details-right .badge {
+    font-size: clamp(0.75rem, 0.6778rem + 0.3082vw, 0.875rem);
+    font-weight: 500;
+    color: #191A4E;
+    background-color: #F5F7FF;
+    border-radius: 80px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    margin-right: 1rem;
+}
+
+.box-career-details-right .badge:last-child {
+    margin-right: 0;
+}
+
+
+.job-form .modal-dialog {
+    max-width: 480px;
+    margin-inline: auto;
+    border: 0.5px solid #22222233;
+    border-radius: .5rem;
+}
+
+.job-form .modal-dialog .modal-body {
+    padding: 2.125rem 1.5rem;
+}
+
+.job-form .modal-dialog .modal-body .title {
+    font-size: clamp(1.125rem, 1.0528rem + 0.3082vw, 1.25rem);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.job-form .modal-dialog .modal-body .upload-btn {
+    font-size: clamp(0.75rem, 0.6778rem + 0.3082vw, 0.875rem);
+    font-weight: 400;
+    color: #191A4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: .75rem;
+    background-color: #F5F7FF;
+    border: 1px solid #E8E8E8
+}
+
+.job-form .modal-dialog .modal-body .form-control {
+    padding: 1rem;
+}
+
+.job-form .modal-dialog .modal-body .labe-text {
+    font-size: clamp(0.75rem, 0.6778rem + 0.3082vw, 0.875rem);
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,22 @@
+.lasting-solutions-flutter2 {
+    background-color: var(--black);
+    background-image: url(../img/other/shape/scroll-bg-left.png), url(../img/other/shape/lasting-solutions-right-bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: 0 150px, 100% 0%;
+}
+.flutter-card-flutter2 .card {
+    background: transparent;
+    border: 0.5px solid #47456B;
+    border-radius: 12px;
+    transition: background 0.5s ease; 
+}
+
+.flutter-card-flutter2 .card:hover {
+    background: linear-gradient(180deg, #1F3663  0%, #0A172C  100%);
+}
+
+.flutter-card-flutter2 .title {
+    font-size: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+    font-weight: 500;
+}
