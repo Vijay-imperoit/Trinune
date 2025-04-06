@@ -93,8 +93,8 @@ import enterpriseDevelopment from '../assets/img/svg/uiux-services/enterprise-de
 import uniqueProcess from '../assets/img/other/home/uniqueprocess.svg';
 import uniqueProcess1 from '../assets/img/other/home/uniqueProcess1.webp';
 import uniqueProcess2 from '../assets/img/other/home/uniqueProcess2.svg';
-import uniqueProcess3 from '../assets/img/other/home/uniqueprocess3.webp';
-import uniqueProcess4 from '../assets/img/other/home/uniqueprocess4.webp';
+import uniqueProcess3 from '../assets/img/other/home/uniqueProcess3.svg';
+import uniqueProcess4 from '../assets/img/other/home/uniqueProcess4.svg';
 import uniqueProcess5 from '../assets/img/other/home/uniqueProcess5.webp';
 
 import sqLite from '../assets/img/other/home/Sqlite.svg';
