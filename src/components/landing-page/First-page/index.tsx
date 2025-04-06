@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 import { Col, Container, Row, Carousel } from 'react-bootstrap';
 import { IMAGES } from '../../../utils/staticJSON';
 import './style.css';
-const AnimatedImageWithOpacity = React.lazy(
-  () => import('../../../global/AnimatedImageWithOpacity')
-);
+// const AnimatedImageWithOpacity = React.lazy(
+//   () => import('../../../global/AnimatedImageWithOpacity')
+// );
 
 const FirstPage = () => {
   // Array of background images for the carousel

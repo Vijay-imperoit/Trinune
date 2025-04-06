@@ -2,7 +2,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import './style.css';
 import { IMAGES } from '../../../utils/staticJSON';
 import { useState } from 'react';
-import { color } from 'framer-motion';
+// import { color } from 'framer-motion';
 // import CaseStudiesCards from './case-studies';
 
 const CaseStudies = () => {

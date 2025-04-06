@@ -3,10 +3,10 @@ import { IMAGES } from '../../../utils/staticJSON';
 import { Container, Image } from 'react-bootstrap';
 import './style.css';
 import { Link, useLocation } from 'react-router-dom';
-const Industries = React.lazy(() => import('./subComponents/industries'));
-const Services = React.lazy(() => import('./subComponents/ourServices'));
-const OurWorks = React.lazy(() => import('./subComponents/ourWorks'));
-const Achievements = React.lazy(() => import('./subComponents/achievements'));
+// const Industries = React.lazy(() => import('./subComponents/industries'));
+// const Services = React.lazy(() => import('./subComponents/ourServices'));
+// const OurWorks = React.lazy(() => import('./subComponents/ourWorks'));
+// const Achievements = React.lazy(() => import('./subComponents/achievements'));
 interface HeaderProps {
   isWhiteHeader?: boolean;
 }
