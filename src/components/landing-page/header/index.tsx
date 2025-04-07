@@ -183,7 +183,7 @@ const Header: React.FC<HeaderProps> = ({ isWhiteHeader = false }) => {
                     </div>
                   </div>
                   <ul
-                    className="menu-main d-lg-flex gap-3 align-items-center"
+                    className="menu-main d-xl-flex gap-3 align-items-center"
                     onClick={showSubMenu}
                   >
                     <li className="menu-item-has-children">
@@ -431,7 +431,7 @@ const Header: React.FC<HeaderProps> = ({ isWhiteHeader = false }) => {
                       </a>
                     </li> */}
                     {/* {location.pathname !== "/budget-calculator" && ( */}
-                    <li className="d-none d-lg-block custom-cursor">
+                    <li className="d-none d-xl-block custom-cursor">
                       <a
                         href="#"
                         className="btn no-hover text-white custom-cursor text-nowrap d-flex align-items-center justify-content-center fs-18 fw-600"
